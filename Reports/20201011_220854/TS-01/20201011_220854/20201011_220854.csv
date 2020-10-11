@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-01,Edge Chromium 85,,,2020-10-11 22:09:03,2020-10-11 22:09:37,33.791s,FAILED
+,,,,,,,
+Test Cases/TC-01-Login_success,Edge Chromium 85,,,2020-10-11 22:09:03,2020-10-11 22:09:21,17.841s,FAILED
+"openBrowser("""")",Edge Chromium 85,,,2020-10-11 22:09:04,2020-10-11 22:09:11,6.670s,PASSED
+navigateToUrl(URL),Edge Chromium 85,,,2020-10-11 22:09:11,2020-10-11 22:09:14,3.253s,PASSED
+"click(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp""))",Edge Chromium 85,,,2020-10-11 22:09:14,2020-10-11 22:09:15,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7""), Correct_username)",Edge Chromium 85,,,2020-10-11 22:09:15,2020-10-11 22:09:16,0.869s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5""), ""5vJKaXUCDfnDKx/phgipKA=="")",Edge Chromium 85,,,2020-10-11 22:09:16,2020-10-11 22:09:16,0.730s,PASSED
+"click(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575""))",Edge Chromium 85,,,2020-10-11 22:09:16,2020-10-11 22:09:17,0.984s,PASSED
+"waitForElementPresent(findTestObject(""Page_UP Portal  HoChiMinh University of Pedagogy/span_THNG BAO SINH VIN""), 30)",Edge Chromium 85,,,2020-10-11 22:09:17,2020-10-11 22:09:19,1.215s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/span_THNG BAO SINH VIN""), ""THÔNG BÁO SINH VIÊN"")",Edge Chromium 85,,,2020-10-11 22:09:19,2020-10-11 22:09:21,2.679s,FAILED
+,,,,,,,
+Test Cases/TC-02-Login_fail,Edge Chromium 85,,,2020-10-11 22:09:21,2020-10-11 22:09:37,15.264s,FAILED
+"openBrowser("""")",Edge Chromium 85,,,2020-10-11 22:09:23,2020-10-11 22:09:29,6.584s,PASSED
+"navigateToUrl(""https://online.hcmue.edu.vn/"")",Edge Chromium 85,,,2020-10-11 22:09:29,2020-10-11 22:09:32,2.481s,PASSED
+"click(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/a_ng nhp""))",Edge Chromium 85,,,2020-10-11 22:09:32,2020-10-11 22:09:33,1.137s,PASSED
+"setText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_Tn ng nhp_ctl00ContentPlaceHolder1ctl_537cb7""), ""43.01.104.193"")",Edge Chromium 85,,,2020-10-11 22:09:33,2020-10-11 22:09:34,0.664s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_Mt m_ctl00ContentPlaceHolder1ctl00ctl_4544f5""), ""yHNXnAiDau/sbxDLwMGHaw=="")",Edge Chromium 85,,,2020-10-11 22:09:34,2020-10-11 22:09:34,0.532s,PASSED
+"click(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/input_S lng truy cp _ctl00ContentPlaceHolde_c71575""))",Edge Chromium 85,,,2020-10-11 22:09:34,2020-10-11 22:09:35,0.596s,PASSED
+"waitForElementPresent(findTestObject(""Page_UP Portal  HoChiMinh University of Pedagogy/td_Mt m truy cp khng chnh xc""), 30)",Edge Chromium 85,,,2020-10-11 22:09:35,2020-10-11 22:09:35,0.362s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_UP Portal  HoChiMinh University of Pedagogy/td_Mt m truy cp khng chnh xc""), ""Mật mã truy cập không chính xác."")",Edge Chromium 85,,,2020-10-11 22:09:35,2020-10-11 22:09:37,1.466s,FAILED

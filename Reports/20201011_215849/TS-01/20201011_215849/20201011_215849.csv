@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-01,,,,2020-10-11 21:58:58,2020-10-11 21:59:06,7.190s,FAILED
+,,,,,,,
+Test Cases/TC-01-Login_success,,,,2020-10-11 21:58:59,2020-10-11 21:59:04,4.582s,FAILED
+"openBrowser("""")",,,,2020-10-11 21:59:00,2020-10-11 21:59:04,3.776s,FAILED
+,,,,,,,
+Test Cases/TC-02-Login_fail,,,,2020-10-11 21:59:04,2020-10-11 21:59:06,1.784s,FAILED
+"openBrowser("""")",,,,2020-10-11 21:59:05,2020-10-11 21:59:05,0.662s,FAILED
